@@ -7223,6 +7223,27 @@ a, img {
 	.pricing-2-col .pricing-box, .pricing-3-col .pricing-box, .pricing-4-col .pricing-box, .pricing-5-col .pricing-box {
 		width: 100%;
 	}
+
+	h1.very-big {
+		font-size: 3.8em;
+	}
+
+	h2.s1 {
+		font-size: 1.0em !important;
+	}
+
+	li.active {
+		width: 100% !important;
+	}
+
+	.pricing-s1 .bottom>a {
+		font-size: 1.0em;
+	}
+
+	.spacer-double {
+		    height: 4px;
+	}
+
 	#subheader h1 {
 		font-size: 24px;
 	}
@@ -7339,6 +7360,26 @@ a, img {
 		max-width: 200px;
 		height: auto;
 	}
+
+		h1.very-big {
+		font-size: 3.8em;
+	}
+
+	h2.s1 {
+		font-size: 1.0em !important;
+	}
+
+	li.active {
+		width: 100% !important;
+	}
+
+	.pricing-s1 .bottom>a {
+		font-size: 1.0em;
+	}
+
+	.spacer-double {
+		    height: 4px;
+	}
 }
 
 /* -------------------------------------------------- 
@@ -7350,6 +7391,27 @@ a, img {
 		float: left;
 		width: 100% !important;
 	}
+
+	h1.very-big {
+		font-size: 3.8em;
+	}
+
+	h2.s1 {
+		font-size: 1.0em !important;
+	}
+
+	li.active {
+		width: 100% !important;
+	}
+
+	.pricing-s1 .bottom>a {
+		font-size: 1.0em;
+	}
+
+	.spacer-double {
+		    height: 4px;
+	}
+
 	.text-item {
 		font-size: 32px;
 		line-height: 32px;
@@ -7369,4 +7431,9 @@ a, img {
 		margin: 0;
 		padding: 0;
 	}
+}
+
+a.disable {
+	background-color: #333333 !important;
+	color:#666666;
 }
