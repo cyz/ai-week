@@ -1,0 +1,22 @@
+{
+  "name": "ai-week",
+  "version": "1.0.0",
+  "description": "hotsite",
+  "main": "index.html",
+  "dependencies": {
+    "gulp-minify-css": "^1.2.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyz/ai-week.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyz/ai-week/issues"
+  },
+  "homepage": "https://github.com/cyz/ai-week#readme"
+}
