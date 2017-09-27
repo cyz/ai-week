@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-var minify = require('gulp-minify-css');
+var minify = require('gulp-minify-css'); 
 
 var css  = [
     './css/bootstrap.css',
@@ -33,14 +33,14 @@ gulp.task('js', function(){
     gulp.src(js)
     .pipe(concat('script.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('build/js/'));
+    .pipe(gulp.dest('dist/js/'));
  });
  
  gulp.task('css', function(){
     gulp.src(css)
     .pipe(concat('styles.css'))
     .pipe(minify())
-    .pipe(gulp.dest('build/css/'));
+    .pipe(gulp.dest('dist/css/'));
  });
  
  gulp.task('default',['css','js'],function(){

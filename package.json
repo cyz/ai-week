@@ -2,7 +2,7 @@
   "name": "ai-week",
   "version": "1.0.0",
   "description": "hotsite",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
     "gulp-minify-css": "^1.2.4",
     "gulp-concat": "^2.6.1",
@@ -11,12 +11,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angelobelchior/ai-week.git"
+    "url": "git+https://github.com/cyz/ai-week.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/angelobelchior/ai-week/issues"
+    "url": "https://github.com/cyz/ai-week/issues"
   },
-  "homepage": "https://github.com/angelobelchior/ai-week#readme"
+  "homepage": "https://github.com/cyz/ai-week#readme"
 }
